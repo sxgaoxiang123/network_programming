@@ -28,7 +28,7 @@ TCP协议利用序号和重发机制结合收发双方的buffer解决顺序问�
 
 ## 收发buffer状态
 
-![image-20211111231524967](/home/gaoxiang/.config/Typora/typora-user-images/image-20211111231524967.png)
+![image-20211111231524967](../image/image-20211111231524967.png)
 
 TCP协议使用并行收发的形式，为了保证顺序性，每个包都有一个ID，在建立连接的时候，会商定起始ID是什么，然后按照ID一个个发送
 

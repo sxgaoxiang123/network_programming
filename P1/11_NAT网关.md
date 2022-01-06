@@ -1,6 +1,6 @@
 # NAT 网关
 
-![image-20211110220936107](/home/gaoxiang/.config/Typora/typora-user-images/image-20211110220936107.png)
+![image-20211110220936107](../image/image-20211110220936107.png)
 
 按照转发网关的思路会遇到一个问题，局域网之间没有商量过，各自定义网段，因而IP段会产生冲突。
 

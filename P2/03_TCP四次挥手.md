@@ -2,7 +2,7 @@
 
 用于断开连接，常称为四次挥手
 
-![image-20211111214955779](/home/gaoxiang/.config/Typora/typora-user-images/image-20211111214955779.png)
+![image-20211111214955779](../image/image-20211111214955779.png)
 
 1. 断开前A和B都处于ESTABLISHED状态
 2. 断开的时候A先发起断开请求FIN，并进入FIN_WAIT_1的状态

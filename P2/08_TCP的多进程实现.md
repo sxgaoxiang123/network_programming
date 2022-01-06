@@ -1,6 +1,6 @@
 # 多进程服务器
 
-![image-20211117090757198](/home/gaoxiang/.config/Typora/typora-user-images/image-20211117090757198.png)
+![image-20211117090757198](../image/image-20211117090757198.png)
 
 网络服务器通常使用fork来同时服务多个客户端，父进程专门负责监听端口，每次accept一个新的客户端连接就fork出一个子进程专门服务这个客户端
 

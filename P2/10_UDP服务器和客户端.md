@@ -2,7 +2,7 @@
 
 ## UDP客户端与服务器通讯过程
 
-![image-20211117213307080](/home/gaoxiang/.config/Typora/typora-user-images/image-20211117213307080.png)
+![image-20211117213307080](../image/image-20211117213307080.png)
 
 由于UDP不需要维护连接，程序逻辑简单很多，但UDP协议是不可靠的，实际上有很多保证通讯可靠性的机制需要在应用层实现
 

@@ -6,7 +6,7 @@ ping命令是基于ICMP协议工作的，ICMP全称为Internet Control Message P
 
 ## IP 数据报
 
-![image-20211109221226064](/home/gaoxiang/.config/Typora/typora-user-images/image-20211109221226064.png)
+![image-20211109221226064](../image/image-20211109221226064.png)
 
 - IP数据报的首部长度和数据长度都是可变长的，单总是4字节的整数倍，对于IPv4来说4位版本字段是4
 - 4位首不长度的数值是以4字节为单位的，最小值为5个单位长度，即20个字节，也就是不带任何选项的IP首部，4位能彪是的最大值是15，即首部最长为60字节
@@ -25,7 +25,7 @@ ping命令是基于ICMP协议工作的，ICMP全称为Internet Control Message P
 
 ## ICMP 报文封装
 
-![image-20211109224205444](/home/gaoxiang/.config/Typora/typora-user-images/image-20211109224205444.png)
+![image-20211109224205444](../image/image-20211109224205444.png)
 
 ICMP报文基于IP数据报进行封装拓展
 
@@ -38,7 +38,7 @@ ICMP报文基于IP数据报进行封装拓展
 
 - 常用Type和Code对应关系
 
-  ![image-20211109224423603](/home/gaoxiang/.config/Typora/typora-user-images/image-20211109224423603.png)
+  ![image-20211109224423603](../image/image-20211109224423603.png)
 
 - 校验和：对类型、代码进行校验
 
@@ -66,7 +66,7 @@ ICMP报文基于IP数据报进行封装拓展
 
 ## ping的收发过程
 
-![image-20211109230529259](/home/gaoxiang/.config/Typora/typora-user-images/image-20211109230529259.png)
+![image-20211109230529259](../image/image-20211109230529259.png)
 
 即由源头的上层逐渐向底层打包报文，然后再到目的地由底层向上层逐步拆包，实现端到端的信息传递
 

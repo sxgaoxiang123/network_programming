@@ -1,6 +1,6 @@
 # 多线程实现服务多个客户端
 
-![image-20211117154346297](/home/gaoxiang/.config/Typora/typora-user-images/image-20211117154346297.png)
+![image-20211117154346297](../image/image-20211117154346297.png)
 
 
 

@@ -8,11 +8,11 @@
 
 1. HTTP协议采用了请求/响应模型（一通就断）
 
-   ![image-20211118210823181](/home/gaoxiang/.config/Typora/typora-user-images/image-20211118210823181.png)
+   ![image-20211118210823181](../image/image-20211118210823181.png)
 
 2. 无状态保存：HTTP是一种不保存状态，即无状态（stateless）协议，HTTP协议本身不对请求和响应之间的通信状态进行保存，即在HTTP这个层级，协议对于发送过的请求或响应都不做持久化处理
 
-   ![image-20211118211026267](/home/gaoxiang/.config/Typora/typora-user-images/image-20211118211026267.png)
+   ![image-20211118211026267](../image/image-20211118211026267.png)
 
    3. 无连接：限制每次连接只处理一个请求。服务器处理万客户的请求，并受到客户的应答后，即断开连接，采用这种方式可以节省传输时间，并可以提高并法性能，不能和每个客户端建立长久的连接，请求一次响应一次，服务器和客户端就中断了
 
@@ -66,11 +66,11 @@ HTTP/1.1协议中共定义了8中方法（也叫“动作”）来以不同方�
 
 ### 请求协议
 
-![image-20211118213346004](/home/gaoxiang/.config/Typora/typora-user-images/image-20211118213346004.png)
+![image-20211118213346004](../image/image-20211118213346004.png)
 
 ### 应答协议
 
-![image-20211118214227686](/home/gaoxiang/.config/Typora/typora-user-images/image-20211118214227686.png)
+![image-20211118214227686](../image/image-20211118214227686.png)
 
 
 

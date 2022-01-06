@@ -4,7 +4,7 @@
 
 为了解决这个问题，引入epoll + 线程池并法的方式实现高并法访问
 
-![image-20211118184848523](/home/gaoxiang/.config/Typora/typora-user-images/image-20211118184848523.png)
+![image-20211118184848523](../image/image-20211118184848523.png)
 
 
 

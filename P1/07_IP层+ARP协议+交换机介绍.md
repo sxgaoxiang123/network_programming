@@ -12,7 +12,7 @@
 
 ARP协议的目的是在已知IP地址时，求MAC地址的协议
 
-![image-20211109000408167](C:\Users\gaoxiang7\AppData\Roaming\Typora\typora-user-images\image-20211109000408167.png)
+![image-20211109000408167](../image/image-20211109000408167.png)
 
 ## ARP表
 
@@ -20,7 +20,7 @@ ARP协议的目的是在已知IP地址时，求MAC地址的协议
 
 ## ARP数据包格式
 
-![image-20211109001309459](C:\Users\gaoxiang7\AppData\Roaming\Typora\typora-user-images\image-20211109001309459.png)
+![image-20211109001309459](../image/image-20211109001309459.png)
 
 为了避免每次都用ARP请求，机器本地也会进行ARP缓存。同时机器会不断地上下线，IP也可能会变化，所以ARP的MAC地址缓存过一段时间就会过期
 
